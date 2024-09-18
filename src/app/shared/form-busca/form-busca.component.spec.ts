@@ -6,12 +6,10 @@ describe('FormBuscaComponent', () => {
   let component: FormBuscaComponent;
   let fixture: ComponentFixture<FormBuscaComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(() => {
+    TestBed.configureTestingModule({
       declarations: [FormBuscaComponent]
-    })
-    .compileComponents();
-
+    });
     fixture = TestBed.createComponent(FormBuscaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
